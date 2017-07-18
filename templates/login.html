@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Login</title>
+        <link rel="stylesheet" type="text/css" href="/static/css/style2.css">
+
+</head>
+<body bgcolor="#1abc9c">
+    <center>
+        <div class="loginbx">
+    <h1 class="h1">Admin Login </h1>
+            {{invalid}}<br><br>
+    <form method="POST">
+        {% csrf_token %}
+        {% for field in login_form %}
+                {{ field.errors }}
+           {{ field }}<br><br>
+            {% endfor %}<br>
+        <input type="submit" value="login" class="addbankbtn">
+    </form>
+            </div>
+        </center>
+</body>
+</html>

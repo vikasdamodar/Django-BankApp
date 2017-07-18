@@ -1,0 +1,210 @@
+body { margin:0px;}
+.chaccntbx  {
+             height:290px;
+             float:left;
+             background: #f1f1f1;
+             width:26%;
+             margin-left:34%;
+             margin-top:-40%;
+             padding: 20px 12px;
+             border: 0px solid  #e5e5e5;
+            }
+.adminbx    {
+            background-color:#0C4B33;
+            width:auto;
+            height:50%;
+            padding:1px 19px;
+                }
+    ul          {
+        list-style-type: none;
+        margin: 0;
+        padding: 2% 1%;
+        width: 14%;
+        height:534px;
+        background-color: #f8f8f8;
+                }
+
+    li a        {
+        display: block;
+        color: #000;
+        padding: 8px 16px;
+        text-decoration: none;
+        font-family:Ubuntu Light;
+                }
+
+    li a:hover {
+        background-color: #555;
+        color: white;
+                }
+
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #555}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.choose{margin-top:-20%;}
+.addbankhr  {
+             border: 0;
+             height: 1px;
+             background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+            }
+.addbankhead{
+            font-family:Ubuntu Light;
+            color:black;
+            }
+.addbankbtn {
+            width: 40%;
+                background-color: #1abc9c;
+                color: white;
+                padding: 5px 12px;
+                margin: 0px 0;
+                border: none;display:inline-block;
+                border-radius: 3px;
+                cursor: pointer;
+            }
+.addbanktxt {
+                background-color:transparent;
+                width: 70%;
+                height: 40px;border:none;
+                border-bottom: solid 1px #1abc9c;
+                padding: -1px 20px;
+                margin: 0px 0;
+                display: inline-block;
+                color:#1abc9c;
+                border-radius: 0px;
+                box-sizing: border-box;
+            }
+.addbanktxtar{
+                background-color:transparent;
+                width: 70%;
+                height: 55px;border:none;
+                border-bottom: solid 1px #1abc9c;
+                padding: 20px 0px;
+                margin: 0px 0;
+                display: inline-block;
+                color:#1abc9c;
+                border-radius: 0px;
+                box-sizing: border-box;
+            }
+.banktbl    {
+            margin-top:-40%;
+            margin-left: 17%;
+            }
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    font-family:Aller Light;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #44B78B;;
+    color: white;
+    font-family:Ubuntu Medium;
+    font-weight:bold;
+}
+.addbnkbx  {
+             height:auto;
+             float:left;
+             background: #f8f8f8;
+             width:33%;
+             margin-left:34%;
+             margin-top:-40%;
+             padding: 20px 12px;
+             border: 0px solid  #e5e5e5;
+            }
+.editbanktxt {
+                background-color:transparent;
+                width: 56%;
+                height: 40px;border:none;
+                border-bottom: solid 1px #1abc9c;
+                padding: -1px 20px;
+                margin: 0px 0;
+                display: inline-block;
+                color:#1abc9c;
+                border-radius: 0px;
+                box-sizing: border-box;
+            }
+.cstmrtxtarea{
+                background-color:transparent;
+                width: 60%;
+                height: 50px;
+                border: solid 1px #BEBEBE;
+                padding: 0px 13px;
+                margin: 0px 0;
+                display: inline-block;
+                color:black;
+                border-radius: 2px;
+                box-sizing: border-box;
+            }
+.cstmrtxt   {
+                background-color:transparent;
+                width: 60%;
+                height: 30px;
+                border: solid 1px #BEBEBE;
+                padding: 0px 13px;
+                margin: 0px 0;
+                display: inline-block;
+                color:black;
+                border-radius: 2px;
+                box-sizing: border-box;
+            }
+.loginbx    {
+             height:270px;
+
+             background: white;
+             width:30%;
+             margin-top:10%;
+             padding: 20px 12px;
+             border: 0px solid  #e5e5e5;
+            }
+.h1         {
+            color:#1abc9c;
+            }
+.link       {
+            text-decoration:none;
+            float:right;
+            color:#f1f1f1;
+            margin-top: -3%;
+            margin-right: 2%;
+            }
+.username   {
+            font-family: Roboto, Corbel, Avenir, Lucida Grande, Lucida Sans, sans-serif;
+            float:right;
+            color:#44B78B;
+            margin-top: -3%;
+            margin-right: 6%;
+            }
+.option      {
+            width:270px;
+
+            }
+.select     {
+            background-color:transparent;
+            width:60%;
+            height:30px;
+            }
